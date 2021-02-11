@@ -1,0 +1,17 @@
+package OOPConceptPart2;
+
+public class TestBank {
+
+	public static void main(String[] args) {
+		
+		HSBCBank b=new HSBCBank();
+		b.credit();
+		b.debit();
+		b.transfermoney();
+		b.carloan();
+		b.eduloan();
+		
+
+	}
+
+}

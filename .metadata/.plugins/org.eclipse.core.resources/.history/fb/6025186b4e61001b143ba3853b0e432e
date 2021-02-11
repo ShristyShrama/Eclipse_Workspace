@@ -1,0 +1,33 @@
+package TestPackage;
+
+public class finallyconcept {
+
+	public static void main(String[] args) {
+		test();
+		test2();
+	
+	}
+
+	public static void test() {
+		try {
+			System.out.println("try block");
+		}
+		catch(Exception e) {
+			System.out.println("catch block");
+			}
+		finally {
+			System.out.println("finally block");
+		}
+		
+	} 
+	
+	public static void test2() {
+		try {
+			System.out.println("try block");
+			}
+		finally {
+			System.out.println("Finally block");
+		}
+		
+	}
+}

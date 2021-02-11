@@ -1,0 +1,27 @@
+package OOPConceptPart2;
+
+public class HSBCBank implements USBank{
+
+	public static void main(String[] args) {
+		
+		public void credit()
+		{
+			System.out.println("USBank--credit");
+		}
+		
+		public void debit()
+		{
+			System.out.println("USBank--debit");
+		}
+		
+		public void transfermoney()
+		{
+			System.out.println("USBank--tranfermoney");
+		}
+		
+		
+		
+
+	}
+
+}
